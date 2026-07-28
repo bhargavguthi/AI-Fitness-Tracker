@@ -121,7 +121,7 @@ https://fitness-tracker-server-g1tq.onrender.com
 ## 📂 Project Structure
 
 ```text
-Fitness_Tracker/
+AI-Fitness-Tracker/
 │
 ├── client/
 │   ├── src/
@@ -158,13 +158,13 @@ Fitness_Tracker/
 Clone the repository:
 
 ```bash
-git clone https://github.com/bhargavguthi/Fitness_Tracker.git
+git clone https://github.com/bhargavguthi/AI-Fitness-Tracker.git
 ```
 
 Navigate to the project folder:
 
 ```bash
-cd Fitness_Tracker
+cd AI-Fitness-Tracker
 ```
 
 ### Run the Frontend
