@@ -6,7 +6,6 @@
 ![Strapi](https://img.shields.io/badge/Strapi-8E75FF?logo=strapi)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql)
 ![Google Gemini](https://img.shields.io/badge/Google-Gemini-4285F4?logo=google)
-![License](https://img.shields.io/badge/License-MIT-green)
 
 An AI-powered fitness tracking web application that helps users monitor their daily food intake, physical activities, and calorie consumption. It also uses **Google Gemini AI** to analyze food images and estimate calories.
 
@@ -24,8 +23,9 @@ An AI-powered fitness tracking web application that helps users monitor their da
 - [AI Food Snap](#-ai-food-snap)
 - [Deployment](#-deployment)
 - [Future Improvements](#-future-improvements)
+- [Contributing](#-contributing)
 - [Author](#-author)
-- [License](#-license)
+- [Support](#-support)
 
 ---
 
@@ -48,7 +48,7 @@ https://fitness-tracker-server-g1tq.onrender.com
 - 🔥 Automatic Calorie Estimation
 - 📊 Daily Fitness Tracking
 - ☁️ PostgreSQL Cloud Database
-- 📱 Responsive UI
+- 📱 Responsive User Interface
 - ⚡ Fast Performance
 
 ---
@@ -106,7 +106,7 @@ https://fitness-tracker-server-g1tq.onrender.com
 
 - PostgreSQL (Neon)
 
-### AI
+### Artificial Intelligence
 
 - Google Gemini API
 
@@ -124,13 +124,25 @@ https://fitness-tracker-server-g1tq.onrender.com
 Fitness_Tracker/
 │
 ├── client/
+│   ├── src/
+│   ├── public/
+│   └── package.json
 │
 ├── server/
+│   ├── src/
+│   ├── config/
+│   └── package.json
 │
 ├── screenshots/
+│   ├── Login.png
+│   ├── Home1.png
+│   ├── Home2.png
+│   ├── Foodlog.png
+│   ├── Activitylog.png
+│   ├── AIFoodSnap.png
+│   └── Profile.png
 │
 ├── README.md
-│
 └── .gitignore
 ```
 
@@ -140,7 +152,7 @@ Fitness_Tracker/
 
 ### Prerequisites
 
-- Node.js
+- Node.js (v18 or later)
 - npm
 
 Clone the repository:
@@ -149,13 +161,13 @@ Clone the repository:
 git clone https://github.com/bhargavguthi/Fitness_Tracker.git
 ```
 
-Go to the project folder:
+Navigate to the project folder:
 
 ```bash
 cd Fitness_Tracker
 ```
 
-### Run Frontend
+### Run the Frontend
 
 ```bash
 cd client
@@ -163,10 +175,10 @@ npm install
 npm run dev
 ```
 
-### Run Backend
+### Run the Backend
 
 ```bash
-cd server
+cd ../server
 npm install
 npm run develop
 ```
@@ -194,8 +206,8 @@ GEMINI_API_KEY=your_gemini_api_key
 
 1. Upload a food image.
 2. Google Gemini AI analyzes the image.
-3. Calories are estimated.
-4. Save the result directly to your Food Log.
+3. Estimated calories are generated.
+4. Save the food directly into your Food Log.
 
 ---
 
@@ -212,20 +224,20 @@ GEMINI_API_KEY=your_gemini_api_key
 
 ## 🎯 Future Improvements
 
-- Nutrition Analysis
-- Meal Planner
-- Workout Recommendations
-- Weekly Reports
-- Goal Tracking
-- Water Intake Tracking
-- Dark Mode
-- Push Notifications
+- 🥗 Nutrition Analysis
+- 📅 Meal Planner
+- 💪 Workout Recommendations
+- 📈 Weekly Reports
+- 🎯 Goal Tracking
+- 💧 Water Intake Tracking
+- 🌙 Dark Mode
+- 🔔 Push Notifications
 
 ---
 
 ## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome.
+Contributions, suggestions, and feature requests are welcome. Feel free to fork the repository and submit a pull request.
 
 ---
 
@@ -239,11 +251,4 @@ GitHub: https://github.com/bhargavguthi
 
 ## ⭐ Support
 
-If you found this project useful, consider giving it a ⭐ on GitHub.
-
----
-
-## 📄 License
-
-This project is created for learning and portfolio purposes.
-
+If you found this project helpful, consider giving it a ⭐ on GitHub.
