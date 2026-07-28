@@ -1,20 +1,45 @@
 # 🏋️ AI Fitness Tracker
 
-An AI-powered fitness tracking web application that helps users monitor their daily food intake, physical activities, and calorie consumption. The application also includes AI-powered food recognition using Google Gemini AI to estimate calories from food images.
+![React](https://img.shields.io/badge/React-19-61DAFB?logo=react)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript)
+![Vite](https://img.shields.io/badge/Vite-646CFF?logo=vite)
+![Strapi](https://img.shields.io/badge/Strapi-8E75FF?logo=strapi)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql)
+![Google Gemini](https://img.shields.io/badge/Google-Gemini-4285F4?logo=google)
+![License](https://img.shields.io/badge/License-MIT-green)
+
+An AI-powered fitness tracking web application that helps users monitor their daily food intake, physical activities, and calorie consumption. It also uses **Google Gemini AI** to analyze food images and estimate calories.
+
+---
+
+## 📚 Table of Contents
+
+- [Live Demo](#-live-demo)
+- [Features](#-features)
+- [Screenshots](#-screenshots)
+- [Tech Stack](#-tech-stack)
+- [Project Structure](#-project-structure)
+- [Installation](#-installation)
+- [Environment Variables](#-environment-variables)
+- [AI Food Snap](#-ai-food-snap)
+- [Deployment](#-deployment)
+- [Future Improvements](#-future-improvements)
+- [Author](#-author)
+- [License](#-license)
 
 ---
 
 ## 🚀 Live Demo
 
-### Frontend
+**Frontend:**  
 https://fitness-tracker-k8x3.vercel.app
 
-### Backend
+**Backend API:**  
 https://fitness-tracker-server-g1tq.onrender.com
 
 ---
 
-# 📌 Features
+## 📌 Features
 
 - 🔐 User Authentication (Register & Login)
 - 🍽️ Food Log Management
@@ -22,43 +47,45 @@ https://fitness-tracker-server-g1tq.onrender.com
 - 🤖 AI Food Recognition using Google Gemini AI
 - 🔥 Automatic Calorie Estimation
 - 📊 Daily Fitness Tracking
-- ☁️ Cloud Database Integration
-- 📱 Responsive User Interface
+- ☁️ PostgreSQL Cloud Database
+- 📱 Responsive UI
 - ⚡ Fast Performance
 
 ---
 
-# 🖼️ Screenshots
+## 🖼️ Screenshots
 
-## Login
+### Login
 
 ![Login](screenshots/Login.png)
 
-## Home Page
+### Home
 
-![Home Page](screenshots/Home1.png)
+![Home](screenshots/Home1.png)
 
-## Dashboard
+### Dashboard
 
 ![Dashboard](screenshots/Home2.png)
 
-## Food Log
+### Food Log
 
 ![Food Log](screenshots/Foodlog.png)
 
-## Activity Log
+### Activity Log
 
 ![Activity Log](screenshots/Activitylog.png)
 
-## AI Food Snap
+### AI Food Snap
 
 ![AI Food Snap](screenshots/AIFoodSnap.png)
 
-## Profile
+### Profile
 
 ![Profile](screenshots/Profile.png)
 
-# 🛠️ Tech Stack
+---
+
+## 🛠️ Tech Stack
 
 ### Frontend
 
@@ -73,12 +100,13 @@ https://fitness-tracker-server-g1tq.onrender.com
 
 - Strapi CMS
 - Node.js
+- TypeScript
 
 ### Database
 
 - PostgreSQL (Neon)
 
-### Artificial Intelligence
+### AI
 
 - Google Gemini API
 
@@ -90,41 +118,44 @@ https://fitness-tracker-server-g1tq.onrender.com
 
 ---
 
-# 📂 Project Structure
+## 📂 Project Structure
 
-```
+```text
 Fitness_Tracker/
 │
 ├── client/
-│   ├── src/
-│   ├── public/
-│   └── package.json
 │
 ├── server/
-│   ├── src/
-│   ├── config/
-│   └── package.json
 │
-└── README.md
+├── screenshots/
+│
+├── README.md
+│
+└── .gitignore
 ```
 
 ---
 
-# ⚙️ Installation
+## ⚙️ Installation
 
-Clone the repository
+### Prerequisites
+
+- Node.js
+- npm
+
+Clone the repository:
 
 ```bash
 git clone https://github.com/bhargavguthi/Fitness_Tracker.git
 ```
 
-Go to project folder
+Go to the project folder:
 
 ```bash
 cd Fitness_Tracker
 ```
 
-### Frontend
+### Run Frontend
 
 ```bash
 cd client
@@ -132,7 +163,7 @@ npm install
 npm run dev
 ```
 
-### Backend
+### Run Backend
 
 ```bash
 cd server
@@ -142,7 +173,7 @@ npm run develop
 
 ---
 
-# 🔑 Environment Variables
+## 🔑 Environment Variables
 
 Create a `.env` file inside the `server` folder.
 
@@ -155,20 +186,20 @@ APP_KEYS=your_app_keys
 GEMINI_API_KEY=your_gemini_api_key
 ```
 
-> **Note:** Never commit your actual API keys or secrets to GitHub.
+> Replace the placeholder values with your own credentials. Never commit your real API keys or secrets to GitHub.
 
 ---
 
-# 🤖 AI Food Snap
+## 🤖 AI Food Snap
 
 1. Upload a food image.
-2. Google Gemini AI identifies the food.
-3. Estimated calories are generated.
-4. Food details can be saved directly into the Food Log.
+2. Google Gemini AI analyzes the image.
+3. Calories are estimated.
+4. Save the result directly to your Food Log.
 
 ---
 
-# 🚀 Deployment
+## 🚀 Deployment
 
 | Service | Platform |
 |---------|----------|
@@ -179,7 +210,7 @@ GEMINI_API_KEY=your_gemini_api_key
 
 ---
 
-# 🎯 Future Improvements
+## 🎯 Future Improvements
 
 - Nutrition Analysis
 - Meal Planner
@@ -192,7 +223,13 @@ GEMINI_API_KEY=your_gemini_api_key
 
 ---
 
-# 👨‍💻 Author
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome.
+
+---
+
+## 👨‍💻 Author
 
 **Guthi Srinivasa Bhargav**
 
@@ -200,12 +237,13 @@ GitHub: https://github.com/bhargavguthi
 
 ---
 
-# ⭐ If you like this project
+## ⭐ Support
 
-Give this repository a ⭐ on GitHub.
+If you found this project useful, consider giving it a ⭐ on GitHub.
 
 ---
 
-# 📄 License
+## 📄 License
 
 This project is created for learning and portfolio purposes.
+
