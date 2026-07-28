@@ -1,61 +1,95 @@
-# 🚀 Getting started with Strapi
+# 🚀 AI Fitness Tracker Backend
 
-Strapi comes with a full featured [Command Line Interface](https://docs.strapi.io/dev-docs/cli) (CLI) which lets you scaffold and manage your project in seconds.
+This is the backend API for the AI Fitness Tracker application.
 
-### `develop`
-
-Start your Strapi application with autoReload enabled. [Learn more](https://docs.strapi.io/dev-docs/cli#strapi-develop)
-
-```
-npm run develop
-# or
-yarn develop
-```
-
-### `start`
-
-Start your Strapi application with autoReload disabled. [Learn more](https://docs.strapi.io/dev-docs/cli#strapi-start)
-
-```
-npm run start
-# or
-yarn start
-```
-
-### `build`
-
-Build your admin panel. [Learn more](https://docs.strapi.io/dev-docs/cli#strapi-build)
-
-```
-npm run build
-# or
-yarn build
-```
-
-## ⚙️ Deployment
-
-Strapi gives you many possible deployment options for your project including [Strapi Cloud](https://cloud.strapi.io). Browse the [deployment section of the documentation](https://docs.strapi.io/dev-docs/deployment) to find the best solution for your use case.
-
-```
-yarn strapi deploy
-```
-
-## 📚 Learn more
-
-- [Resource center](https://strapi.io/resource-center) - Strapi resource center.
-- [Strapi documentation](https://docs.strapi.io) - Official Strapi documentation.
-- [Strapi tutorials](https://strapi.io/tutorials) - List of tutorials made by the core team and the community.
-- [Strapi blog](https://strapi.io/blog) - Official Strapi blog containing articles made by the Strapi team and the community.
-- [Changelog](https://strapi.io/changelog) - Find out about the Strapi product updates, new features and general improvements.
-
-Feel free to check out the [Strapi GitHub repository](https://github.com/strapi/strapi). Your feedback and contributions are welcome!
-
-## ✨ Community
-
-- [Discord](https://discord.strapi.io) - Come chat with the Strapi community including the core team.
-- [Forum](https://forum.strapi.io/) - Place to discuss, ask questions and find answers, show your Strapi project and get feedback or just talk with other Community members.
-- [Awesome Strapi](https://github.com/strapi/awesome-strapi) - A curated list of awesome things related to Strapi.
+It is built using **Strapi** and provides APIs for authentication, food logs, activity logs, user profiles, and AI-powered food image analysis using Google Gemini.
 
 ---
 
-<sub>🤫 Psst! [Strapi is hiring](https://strapi.io/careers).</sub>
+## 🛠️ Tech Stack
+
+- Strapi CMS
+- Node.js
+- TypeScript
+- PostgreSQL (Neon)
+- Google Gemini API
+
+---
+
+## 📦 Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/bhargavguthi/Fitness_Tracker.git
+```
+
+Go to the server folder:
+
+```bash
+cd server
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+---
+
+## ▶️ Run the Server
+
+Development mode:
+
+```bash
+npm run develop
+```
+
+Production mode:
+
+```bash
+npm run start
+```
+
+Build the admin panel:
+
+```bash
+npm run build
+```
+
+---
+
+## 🔑 Environment Variables
+
+Create a `.env` file inside the `server` folder.
+
+```env
+DATABASE_URL=your_database_url
+JWT_SECRET=your_jwt_secret
+ADMIN_JWT_SECRET=your_admin_jwt_secret
+API_TOKEN_SALT=your_api_token_salt
+APP_KEYS=your_app_keys
+GEMINI_API_KEY=your_gemini_api_key
+```
+
+> **Important:** Never commit your real API keys or secrets to GitHub.
+
+---
+
+## 📌 Features
+
+- User Authentication
+- Food Log API
+- Activity Log API
+- AI Food Image Analysis
+- PostgreSQL Database
+- REST API
+
+---
+
+## 👨‍💻 Author
+
+**Guthi Srinivasa Bhargav**
+
+GitHub: https://github.com/bhargavguthi
