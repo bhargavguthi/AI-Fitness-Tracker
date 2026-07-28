@@ -30,27 +30,33 @@ https://fitness-tracker-server-g1tq.onrender.com
 
 # 🖼️ Screenshots
 
+## Login
+
+![Login](screenshots/Login.png)
+
 ## Home Page
 
-<!-- Add screenshot here -->
+![Home Page](screenshots/Home1.png)
+
+## Dashboard
+
+![Dashboard](screenshots/Home2.png)
 
 ## Food Log
 
-<!-- Add screenshot here -->
+![Food Log](screenshots/Foodlog.png)
 
 ## Activity Log
 
-<!-- Add screenshot here -->
+![Activity Log](screenshots/Activitylog.png)
 
 ## AI Food Snap
 
-<!-- Add screenshot here -->
+![AI Food Snap](screenshots/AIFoodSnap.png)
 
 ## Profile
 
-<!-- Add screenshot here -->
-
----
+![Profile](screenshots/Profile.png)
 
 # 🛠️ Tech Stack
 
